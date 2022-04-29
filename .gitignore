@@ -1,0 +1,13 @@
+
+
+CalculateData/
+stanford-corenlp-4.2.1/
+
+assessment.py
+coherence_probability.py
+corenlp.py
+entity_grid.py
+entity_transition.py
+ranking.py
+utils.py
+evaluator.py

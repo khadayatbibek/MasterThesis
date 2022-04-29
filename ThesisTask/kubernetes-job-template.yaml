@@ -1,0 +1,39 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: entity-grid-topic-$TOPIC
+  namespace: thesis-khadayat
+  labels:
+    jobgroup: entity-grid
+spec:
+  template:
+    metadata:
+      name: entity-grid
+      labels:
+        jobgroup: entity-grid
+    spec:
+      restartPolicy: Never
+      containers:
+      - name: entity-grid
+        image: registry.webis.de/code-lib/public-images/wstud-thesis-khadayat:latest
+        command:
+          - bash
+          - -c
+          - |
+            cd /entity_grid
+            ./CalculateCoherence.py -d /trc12 $TOPIC > /output/topic-$(printf "%03d" $TOPIC).jsonl
+        volumeMounts:
+          - name: trc12
+            mountPath: /trc12
+            readOnly: true
+          - name: output
+            mountPath: /output
+      volumes:
+        - name: trc12
+          hostPath:
+            path: /mnt/ceph/storage/corpora/corpora-webis/corpus-webis-trc-12/corpus-webis-trc-12/essays/revisions
+            type: Directory
+        - name: output
+          hostPath:
+            path: /mnt/ceph/storage/data-in-progress/data-teaching/theses/wstud-thesis-khadayat/entity-grid-coherence
+            type: DirectoryOrCreate
