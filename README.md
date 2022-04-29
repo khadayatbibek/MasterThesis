@@ -14,10 +14,19 @@ written.`
 
 ## Some of Coherence Based text Quality's Areas of Impact
 
-![While using internet for web Search](https://user-images.githubusercontent.com/20268365/165942120-5e8bd62b-3cc8-4e27-81b2-2733a590db95.png)
-![Screenshot_2](https://user-images.githubusercontent.com/20268365/165942220-770b9e92-fcd0-426b-90f5-d998fde0f90a.png)
-![Screenshot_3](https://user-images.githubusercontent.com/20268365/165942278-5a534783-45da-425a-b266-215f5d01bfdd.png)
-![Screenshot_4](https://user-images.githubusercontent.com/20268365/165942288-11eafb50-406e-4dbb-b0ae-7ef33cf09b4d.png)
+
+
+<p float="left">
+  <img src="Images/1.png" width="400" >
+  <img src="Images/2.png" width="550"  height="250">  
+  
+</p>
+
+<p float="left">
+  <img src="Images/3.png" width="500"> 
+  <img src="Images/4.png" width="500" >  
+  
+</p>
 
 These images are taken from my Master thesis Slides.
 
