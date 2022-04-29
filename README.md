@@ -16,17 +16,15 @@ written.`
 
 
 
-<p float="left">
-  <img src="Images/1.png" width="400" >
-  <img src="Images/2.png" width="450"  height="250">  
-  
-</p>
 
-<p float="left">
+  <img src="Images/1.png" width="500" >
+  <img src="Images/2.png" width="500" >  
+
+
   <img src="Images/3.png" width="500"> 
   <img src="Images/4.png" width="500" >  
   
-</p>
+
 
 
 These images are taken from my Master thesis Slides.
