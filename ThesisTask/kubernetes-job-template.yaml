@@ -20,7 +20,7 @@ spec:
           - bash
           - -c
           - |
-            cd /entity_grid
+            cd /ThesisTask
             ./CalculateCoherence.py -d /trc12 $TOPIC > /output/topic-$(printf "%03d" $TOPIC).jsonl
         volumeMounts:
           - name: trc12
