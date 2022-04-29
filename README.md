@@ -18,7 +18,7 @@ written.`
 
 <p float="left">
   <img src="Images/1.png" width="400" >
-  <img src="Images/2.png" width="550"  height="250">  
+  <img src="Images/2.png" width="450"  height="250">  
   
 </p>
 
