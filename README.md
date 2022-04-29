@@ -35,3 +35,8 @@ These images are taken from my Master thesis Slides.
 ## Thesis 
 
 Here is the link for [Thesis Report](https://github.com/khadayatbibek/MasterThesis/blob/master/ThesisReport/KhadayatBibekMastersThesis.pdf)
+
+## Note 
+Entity grid approach is used based on the Barzilay, R., & Lapata, M. (2008). Modeling local coherence: An entity-based approach.
+
+Ofcourse all the content of my thesis is not pushed here.
