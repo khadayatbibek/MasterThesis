@@ -28,5 +28,10 @@ written.`
   
 </p>
 
+
 These images are taken from my Master thesis Slides.
 
+
+## Thesis 
+
+Here is the link for [Thesis Report](https://github.com/khadayatbibek/MasterThesis/blob/master/ThesisReport/KhadayatBibekMastersThesis.pdf)
